@@ -113,17 +113,17 @@ const Main = (props: any) => {
 
     React.useEffect(() => {
         let totalCost = cardImageItems[image - 1].price;
-        if (coreItem.label === '8 Core') {
+        if (activeTab > 1 && coreItem.label === '8 Core') {
             totalCost = totalCost + 20;
-        } else if (coreItem.label === '16 Core') {
+        } else if (activeTab > 1 && coreItem.label === '16 Core') {
             totalCost = totalCost + 40;
         }
-        if (memoryItem.label === '32GB') {
+        if (activeTab > 1 && memoryItem.label === '32GB') {
             totalCost = totalCost + 20;
-        } else if (memoryItem.label === '64GB') {
+        } else if (activeTab > 1 && memoryItem.label === '64GB') {
             totalCost = totalCost + 40;
         }
-        if (storageDetail.length > 1) {
+        if (activeTab > 2 && storageDetail.length > 1) {
             storageDetail
                 .filter((storageInformation, valueIndex) => valueIndex !== 0)
                 .map((storageInformation) => {
@@ -131,13 +131,13 @@ const Main = (props: any) => {
                     totalCost = totalCost + storageCost;
                 });
         }
-        if (bandwidth < 1000 && bandwidth >= 512) {
+        if (activeTab > 2 && bandwidth < 1000 && bandwidth >= 512) {
             setBandwidthCost(5);
             totalCost = totalCost + 5;
-        } else if (bandwidth >= 1000 && bandwidth < 1500) {
+        } else if (activeTab > 2 && bandwidth >= 1000 && bandwidth < 1500) {
             setBandwidthCost(10);
             totalCost = totalCost + 10;
-        } else if (bandwidth >= 1500) {
+        } else if (activeTab > 2 && bandwidth >= 1500) {
             setBandwidthCost(15);
             totalCost = totalCost + 15;
         }
