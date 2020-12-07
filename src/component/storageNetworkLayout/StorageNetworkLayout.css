@@ -1,0 +1,21 @@
+.Add-volume-div {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+.Bandwidth-div {
+    margin: 2rem;
+    text-align: left;
+}
+.Add-volume-button {
+    margin-top: 0.5rem;
+    background: #007eff;
+    border: 1px solid #007eff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: #ffffff;
+}
+.Add-volume-button:hover {
+    cursor: pointer;
+}

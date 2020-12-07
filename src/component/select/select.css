@@ -1,0 +1,54 @@
+.Select {
+    font-size: small;
+    display: inline-block;
+}
+
+.drop-down-button {
+    position: relative;
+    width: 15em;
+    min-width: 4em;
+    padding: 0.5em 1em;
+    background: #ffffff;
+    border: 1px solid #007eff;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.drop-down-button:focus {
+    border-style: none;
+}
+.drop-down-button:hover {
+    cursor: pointer;
+}
+
+.drop-down-menu-list {
+    list-style: none;
+    background: white;
+    padding: 0em;
+    margin: 0;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+    border: 2px solid lightblue;
+}
+.drop-down-menu-list:last-child {
+    border: none;
+}
+
+.menu-list-item {
+    padding: 0.8em 1em;
+}
+.menu-list-item:hover {
+    background: #9fcbf7;
+    color: #0059ff;
+}
+
+.drop-down-button-label {
+    width: 95%;
+    padding: 0.2em;
+}
+
+.dropdown-indicator {
+    position: absolute;
+    right: 8px;
+    top: 15%;
+}

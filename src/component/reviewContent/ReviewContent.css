@@ -1,0 +1,64 @@
+.Instance-info-card {
+    display: grid;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    border: outset;
+    margin-left: 2rem;
+    text-align: left;
+    width: max-content;
+}
+.Inner-instance-info-card {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    text-align: left;
+}
+.proceed-button {
+    background: #007eff;
+    border: 1px solid #007eff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #ffffff;
+    min-width: 80px;
+}
+.Json-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.Bandwidth-info-card {
+    display: flex;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    border: outset;
+    margin-left: 2rem;
+    text-align: left;
+    width: max-content;
+}
+.bandWidth-info {
+    color: #007eff;
+}
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+.Edit-button {
+    border: none;
+    color: #007eff;
+    background-color: none;
+    height: fit-content;
+    background-color: #e5e5e5;
+    text-decoration: underline;
+}
+.Edit-button:hover {
+    cursor: pointer;
+    color: #0044ff;
+}

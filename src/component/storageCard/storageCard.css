@@ -1,0 +1,29 @@
+.Storage-card-list {
+    padding-left: 0.5rem;
+    margin-left: 1rem;
+}
+.StorageCardItem {
+    display: flex;
+    background: white;
+    margin: 0.51rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    border: outset;
+}
+.Storage-div {
+    margin: 1rem;
+}
+.close-button {
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: #a2a0a0;
+    height: max-content;
+    align-self: center;
+}
+.close-button:hover {
+    background: #acaaaa;
+    color: #050505;
+}
+.Inner-storage-card-list {
+    display: flex;
+}

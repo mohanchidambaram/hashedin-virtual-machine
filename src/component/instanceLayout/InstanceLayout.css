@@ -1,0 +1,45 @@
+.Instance-type-list {
+    list-style: none;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.Instance-type-button {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+}
+
+.Instance-type-button:hover {
+    cursor: pointer;
+    background: #9fcbf7;
+    color: #0059ff;
+}
+
+.Instance-type-button-selected {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid;
+    border-color: #0059ff;
+    color: #0059ff;
+}
+.Instance-type-button-selected:hover {
+    cursor: pointer;
+    background: #9fcbf7;
+    color: #0059ff;
+}
+.Cpu-Memory-div {
+    display: flex;
+    justify-content: flex-start;
+}
+.Select-div {
+    margin-right: 2rem;
+}
+.Configuration {
+    text-align: start;
+    margin: 1rem;
+    padding: 1rem;
+    padding-top: 0rem;
+}

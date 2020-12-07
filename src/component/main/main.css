@@ -1,0 +1,71 @@
+.Main-body {
+    display: flex;
+}
+.region-select {
+    margin-top: 1rem;
+}
+.Region-select-div {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 2rem;
+}
+.Cost-div {
+    margin: 2rem;
+    border: outset;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    height: max-content;
+    padding: 0.5rem;
+}
+.Cost-items-div {
+    display: flex;
+    justify-content: space-between;
+}
+.Footer-div {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-end;
+}
+.proceed-button {
+    background: #007eff;
+    border: 1px solid #007eff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #ffffff;
+    min-width: 80px;
+}
+.back-button {
+    background: black;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #ffffff;
+    min-width: 80px;
+}
+.cancel-button {
+    background: #d44503;
+    border: 1px solid #d44503;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #ffffff;
+    min-width: 80px;
+}
+.cancel-button:hover,
+.proceed-button:hover,
+.back-button:hover {
+    cursor: pointer;
+}
+.Total-price-div {
+    margin-top: 2rem;
+    border: none;
+    border-top: outset;
+    display: flex;
+    justify-content: flex-end;
+}

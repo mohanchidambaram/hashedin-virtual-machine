@@ -1,0 +1,55 @@
+.Tab-item-list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.blue-button {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: white;
+    border: none;
+    border-bottom: outset;
+    border-bottom-color: #007eff;
+    padding: 0.5rem;
+    color: black;
+}
+.blue-button {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: #007eff;
+    border: none;
+    border-bottom: outset;
+    border-bottom-color: #007eff;
+    padding: 0.5rem;
+    color: black;
+}
+.white-button {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: outset;
+    border-bottom-color: #ffffff;
+    padding: 0.5rem;
+    color: black;
+}
+.white-button-past {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: white;
+    border: none;
+    border-bottom: outset;
+    border-bottom-color: #007eff;
+    padding: 0.5rem;
+    color: black;
+}
