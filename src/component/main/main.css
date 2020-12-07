@@ -10,6 +10,7 @@
     margin-left: 2rem;
 }
 .Cost-div {
+    min-width: 15rem;
     margin: 2rem;
     border: outset;
     background: #ffffff;
