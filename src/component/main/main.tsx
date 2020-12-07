@@ -307,13 +307,13 @@ const Main = (props: any) => {
                         {activeTab > 1 && memoryItem.label === '32GB' ? (
                             <div className="Cost-items-div">
                                 <label>Memory</label>
-                                <label>$20</label>
+                                <label>$20.00</label>
                             </div>
                         ) : null}
                         {activeTab > 1 && memoryItem.label === '64GB' ? (
                             <div className="Cost-items-div">
                                 <label>Memory</label>
-                                <label>$40</label>
+                                <label>$40.00</label>
                             </div>
                         ) : null}
                     </div>
